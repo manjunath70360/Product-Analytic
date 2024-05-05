@@ -1,0 +1,116 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: rgb(164, 197, 209);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgb(190, 147, 19);
+}
+
+th {
+  border-bottom: 1px solid black;
+  border: 2px solid black;
+  font-size: 12px;
+}
+
+td {
+  text-align: center;
+  border: 2px solid black;
+  font-size: 12px;
+}
+
+.header-container {
+  height: 140px;
+  background-color: white;
+  width: 140px;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+}
+.header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-no {
+  font-size: 12px;
+  font-weight: 500;
+}
+.next-prev-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+}
+.search-dropdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.search-bar {
+  height: 30px;
+  background-color: rgb(190, 147, 19);
+  border: none;
+  color: black;
+  outline: none;
+  width: 140px;
+}
+.select {
+  width: 140px;
+  height: 30px;
+  background-color: rgb(190, 147, 19);
+  border: none;
+  color: black;
+  outline: none;
+}
+.statics-container {
+  width: 30%;
+  background-color: rgb(190, 147, 19);
+  margin-top: 8px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.stats-container {
+  width: 100%;
+}
+.total-sale-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+}
+.side-header {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.side-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px;
+}
+.count {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+}
