@@ -26,7 +26,7 @@ class LoginForm extends Component {
 
   
   // getdata = async()=>{
-  //   const res = await fetch("http://localhost:9000/todos")
+  //   const res = await fetch("https://product-analytic.onrender.com/todos")
   //   const data = await res.json()
   //   console.log(data)
   //   }
@@ -79,7 +79,7 @@ onChangeTab = (id) =>{
     const {username, password} = this.state
     const userDetails = {username, password}
    
-    const url = 'http://localhost:9000/login'
+    const url = 'https://product-analytic.onrender.com/login'
     const options = {
       method: 'POST',
       headers: {
@@ -108,7 +108,7 @@ onChangeTab = (id) =>{
       alert("Enter All The Required Fields")
     }else{
       const userDetails = {username, password, phoneNo, address}
-      const url = 'http://localhost:9000/newuser'
+      const url = 'https://product-analytic.onrender.com/newuser'
       const options = {
         method: 'POST',
         headers: {
